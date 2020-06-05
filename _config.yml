@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   My first experiance with jekyll. Github is pretty awesome.
 author: Courd Headman
 email: admin@escapeachamber.com
-avatar: assets/avatar.jpg
+avatar: assets/avatar.gif
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "/playground" # the subpath of your site, e.g. /blog
