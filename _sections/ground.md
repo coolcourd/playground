@@ -1,8 +1,8 @@
 ---
 cover-photo: assets/cover.jpg
 cover-photo-alt: A random cover photo
-title: A
-icon: fa-user
+title: Play
+order: 2
 ---
 
-do I need this?
+# Duh
