@@ -7,7 +7,13 @@ order: 4
 ---
 
 <form method="post" action="https://formspree.io/{{ site.email }}">
-    <input type="date" name="date" id="date">
+    <label for="name">Your Name</label>
     <input type="text" name="name" id="name">
+    <label for="date">Birthday</label>
+    <input type="date" name="date" id="date">
+    <label for="message">What's up?</label>
+    <input type="text" name="message" id="message">
+    <label for="file">Your Resume</label>
+    <input type="file" name="file" id="file">
     <input type="submit" value="submit">
 </form>

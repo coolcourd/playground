@@ -18,7 +18,7 @@ subtitle: A place to mess around.
 description: >- # this means to ignore newlines until "baseurl:"
   My first experiance with jekyll. Github is pretty awesome.
 author: Courd Headman
-email: admin@escapeachamber.com
+email: admin@courdh.com
 avatar: assets/avatar.gif
 
 # You'll want to customize url and baseurl for your own site:
