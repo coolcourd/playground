@@ -2,7 +2,7 @@
 cover-photo: assets/trees.jpg
 cover-photo-alt: A random cover photo
 title: Play
-icon: bicycle
+icon: fa-bicycle
 order: 1
 ---
 
