@@ -2,6 +2,7 @@
 cover-photo: assets/trees.jpg
 cover-photo-alt: A random cover photo
 title: Play
+icon: fa-futbol-o
 order: 1
 ---
 
