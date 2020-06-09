@@ -6,9 +6,9 @@ layout: none
 	"author": "{{post.author}}",
     "date": "{{post.date}}",
     "link": "{{post.url | absolute_url}}",
-    "excerpt": "{{post.excerpt | strip_html | truncatewords: 100 | escape | strip_newlines | replace "   " " "}}",
+    "excerpt": "{{post.excerpt | strip_html | truncatewords: 100 | escape | strip_newlines | replace "\t" " "}}",
 	"tags": "{{post.tags | array_to_sentence_string}}",
     "categories": "{{post.categories}}",
-    "content": "{{post.content | strip_html | escape | strip_newlines | replace "   ", " "}}",
+    "content": "{{post.content | strip_html | escape | strip_newlines | replace "\t", " "}}",
     "version": 2
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
