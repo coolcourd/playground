@@ -8,5 +8,5 @@ layout: none
     "link": "{{- _post.url | absolute_url -}}",
     "excerpt": "{{- _post.excerpt | strip_html | truncatewords: 100 -}}",
 	"tags": "{{ post.tags | array_to_sentence_string }}",
-    "categories": "{{post.categories}}",
+    "categories": "{{post.categories}}"
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
