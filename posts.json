@@ -5,8 +5,9 @@ layout: none
 	"title": "{{post.title}}",
 	"author": "{{post.author}}",
     "date": "{{post.date}}",
-    "link": "{{_post.url | absolute_url}}",
-    "excerpt": "{{_post.excerpt | strip_html | truncatewords: 100}}",
+    "link": "{{post.url | absolute_url}}",
+    "excerpt": "{{post.excerpt | strip_html | truncatewords: 100}}",
 	"tags": "{{post.tags | array_to_sentence_string}}",
-    "categories": "{{post.categories}}"
+    "categories": "{{post.categories}}",
+    "version": 1
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
