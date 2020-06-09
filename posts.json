@@ -4,7 +4,10 @@ layout: none
 [{% for post in site.posts %}{
 	"title": "{{post.title}}",
 	"author": "{{post.author}}",
-	"date": "{{post.date}}",
+    "date": "{{post.date}}",
+    "link": "{{- _post.url | absolute_url -}}",
+    "excerpt": "{{- _post.excerpt | strip_html | truncatewords: 100 -}}",
 	"tags": "{{ post.tags | array_to_sentence_string }}",
-	"categories": "{{post.categories}}"
+    "categories": "{{post.categories}}",
+    "content": "{{post.content}}",
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
