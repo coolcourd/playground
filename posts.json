@@ -10,5 +10,5 @@ layout: none
 	"tags": "{{post.tags | array_to_sentence_string}}",
     "categories": "{{post.categories}}",
     "content": "{{post.content | strip_html | escape | strip_newlines | replace "   ", " "}}",
-    "version": 1
+    "version": 2
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
