@@ -1,0 +1,10 @@
+---
+layout: none
+---
+[{% for post in site.posts %}{
+	"title": "{{post.title}}",
+	"author": "{{post.author}}",
+	"date": "{{post.date}}",
+	"tags": "{{ post.tags | array_to_sentence_string }}",
+	"categories": "{{post.categories}}"
+}{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
