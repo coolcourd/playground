@@ -9,6 +9,6 @@ layout: none
     "excerpt": "{{post.excerpt | strip_html | truncatewords: 100}}",
 	"tags": "{{post.tags | array_to_sentence_string}}",
     "categories": "{{post.categories}}",
-    "content": "{{post.content | replace: "\"", "\\\""}}",
-    "version": 1
+    "content": "{{post.content | replace: '"', '\"'}}",
+    "version": 2
 }{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}]
